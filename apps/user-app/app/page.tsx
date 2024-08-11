@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className="">
       <main className={styles.main}>
         <Image
           className={styles.logo}
@@ -29,7 +29,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-              className={styles.logo}
+              className=" bg-red-700"
               src="/vercel.svg"
               alt="Vercel logomark"
               width={20}
